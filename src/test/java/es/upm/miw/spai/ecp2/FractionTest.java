@@ -31,5 +31,22 @@ public class FractionTest {
     public void testDecimal() {
         assertEquals(0.75, fraction.decimal(), 10e-3);
     }
+    
+    @Test
+    public void testIsPropia(){
+        assertTrue(fraction.getNumerator() < fraction.getDenominator());
+    }
+    
+    @Test
+    public void testIsImpropia(){
+        assertTrue(fraction.getNumerator() >= fraction.getDenominator());
+    }
+    
+    @Test
+    public void testMultiplicar(){
+        Fraction multiplo = new Fraction(2,2);        
+        assertEquals(fraction.multiplicar(multiplo).getNumerator(), multiplo.getNumerator() * fraction.getNumerator(), 0.5);
+        assertEquals(fraction.multiplicar(multiplo).getDenominator(), multiplo.getDenominator() * fraction.getDenominator(), 0.5);
+    }
 
 }
