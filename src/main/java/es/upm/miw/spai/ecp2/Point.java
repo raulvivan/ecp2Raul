@@ -42,7 +42,9 @@ public class Point {
         return "Point[" + x + "," + y + "]";
     }
 
-    public void modificarCoordenadas(Point p) {
+    public void modificarCoordenadas(Point p) {  
+        this.x=p.getX(); 
+        this.y=p.getY();
     }
     
 }
