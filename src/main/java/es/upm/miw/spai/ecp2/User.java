@@ -39,7 +39,6 @@ public class User {
     }
 
     public String fullUpperName() {
-    
-        return null;
+        return fullName().toUpperCase();
     }
 }
