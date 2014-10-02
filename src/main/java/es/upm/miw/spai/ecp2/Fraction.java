@@ -59,6 +59,15 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
+    
+    public boolean isPropia(){
+        
+       Fraction f = new Fraction(this.getNumerator(),this.getDenominator()); 
+        
+       if (f.numerator < f.denominator);
+       
+       return true;
+    }
 
     public Fraction multiplicar(Fraction multiplo) {
        Fraction f = new Fraction(this.numerator * multiplo.getNumerator(), this.denominator * multiplo.getDenominator());     
