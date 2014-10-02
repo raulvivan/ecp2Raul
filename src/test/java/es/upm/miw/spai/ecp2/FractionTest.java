@@ -39,7 +39,7 @@ public class FractionTest {
     
     @Test
     public void testIsImpropia(){
-        assertTrue(fraction.isImpropia());
+        assertTrue(!fraction.isImpropia());
     }
     
     @Test
