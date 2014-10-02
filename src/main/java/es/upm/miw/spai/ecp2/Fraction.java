@@ -61,8 +61,8 @@ public class Fraction {
     }
 
     public Fraction multiplicar(Fraction multiplo) {
-        // TODO Auto-generated method stub
-        return null;
+       Fraction f = new Fraction(this.numerator * multiplo.getNumerator(), this.denominator * multiplo.getDenominator());     
+        return f;
     }
     
 }
