@@ -43,4 +43,9 @@ public class DecimalCollection {
         return total;
     }
 
+    public double multiplicar() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
 }
