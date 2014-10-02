@@ -73,5 +73,10 @@ public class Fraction {
        Fraction f = new Fraction(this.numerator * multiplo.getNumerator(), this.denominator * multiplo.getDenominator());     
         return f;
     }
+
+    public boolean isImpropia() {
+        // TODO Auto-generated method stub
+        return false;
+    }
     
 }

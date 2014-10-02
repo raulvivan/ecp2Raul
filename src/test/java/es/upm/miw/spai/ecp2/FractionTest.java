@@ -34,12 +34,12 @@ public class FractionTest {
     
     @Test
     public void testIsPropia(){
-        assertTrue(fraction.getNumerator() < fraction.getDenominator());
+        assertTrue(fraction.isPropia());
     }
     
     @Test
     public void testIsImpropia(){
-        assertTrue(fraction.getNumerator() >= fraction.getDenominator());
+        assertTrue(fraction.isImpropia());
     }
     
     @Test
