@@ -75,8 +75,7 @@ public class Fraction {
     }
 
     public boolean isImpropia() {
-        // TODO Auto-generated method stub
-        return false;
+        return this.getNumerator() >= this.getDenominator();
     }
     
 }
