@@ -41,5 +41,10 @@ public class Point {
     public String toString() {
         return "Point[" + x + "," + y + "]";
     }
+
+    public void modificarCoordenadas(Point p) {  
+        this.x=p.getX(); 
+        this.y=p.getY();
+    }
     
 }
