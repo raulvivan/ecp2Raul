@@ -62,11 +62,7 @@ public class Fraction {
     
     public boolean isPropia(){
         
-       Fraction f = new Fraction(this.getNumerator(),this.getDenominator()); 
-        
-       if (f.numerator < f.denominator);
-       
-       return true;
+        return this.getNumerator() <= this.getDenominator();
     }
 
     public Fraction multiplicar(Fraction multiplo) {
